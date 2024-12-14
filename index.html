@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Area -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">PUOK GAI</h1>
+            <ul class="nav-links">
+                <li><a href="Front End.html">Home</a></li>
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Page -->
+    <section id="home">
+        <div class="home-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Explore my projects and learn more about me!</p>
+        </div>
+    </section>
+
+    <!-- About Me Page -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="puok.jpg" alt="Profile Picture" class="image">
+            <p>I'm Puok Gai, I am a FullStack Software Developer with Newton Institute of Technology</p>
+            <h5>My Hobbies</h5>
+            <p>I enjoy coding, Playing video games & learning new technologies.</p>   
+        </div>
+    </section>
+
+    <!-- My Projects -->
+    <section id="projects">
+        <h2><a href="Projects.html"></a> My Projects:</h2>
+        <div class="projects-grid">
+            <div class="project1">
+                <h3>Restaurant Management System</h3>
+                <p>This system reduces que at the Restaurant and make it easy for the customers to order foods</p>
+                <button><a href="rms.html"></a> Learn More</button>
+            </div>
+            <div class="project2">
+                <h3>Fleet Management System</h3>
+                <p>This System ensure smooth operation of the Project vehicles</p>
+                <button><a href="fms.html"></a> Learn More</button>
+            </div>
+            <div class="project3">
+                <h3>Tickets Management System</h3>
+                <p>This system makes it easy for the bus booking process</p>
+                <button><a href="tms.html"></a> Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" class="labels">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="please enter your name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Kindly enter a valid email">
+            <label for="telephone">Telephone:</label>
+            <input type="telephone" id="telephone" name="telephone" placeholder="e.g. +211916877770" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="2" placeholder="Enter Text Here"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="lower">
+        <p>Connect with me:</p>
+        <a href="@puok_tut">X(aka twitter)</a> | <a href="@puok_gai_tut">LinkedIn</a>
+        <p>© 2024 Mr. Puok Gai Tut</p>
+    </footer>
+</body>
+</html>

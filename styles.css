@@ -1,0 +1,161 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: rgba(148, 142, 136, 0);
+    border-radius: 0dvh;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    margin: 0%;
+    padding: 0 0;
+    border-radius: 12ch;
+    background-color: aquamarine;
+
+}
+
+header {
+    background-color: #1a7cd1;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-links li :hover {
+    color: chartreuse;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+#home{
+    color: rgb(16, 171, 171);
+}
+#home :hover{
+    color: darkorchid;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about h2 {
+    color: cadetblue;
+}
+#about p {
+  
+    color: rgb(8, 38, 4);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.logo{
+    color: rgb(246, 250, 246);
+    font-style: unset;
+    font-family: cursive;
+    cursor: pointer;
+}
+.navbar h1:hover{
+    color: aquamarine;
+}
+
+.lower{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: bisque;
+    background-color: #4b9b29;
+}
+.lower a{
+    color: aqua;
+}
+.lower a:hover{
+    color: burlywood;
+}
+
+#contact h2 {
+    color: #128f59;
+}
+.labels {
+   color: cadetblue;
+   align-items: center;
+}
+.project1{
+    background-color:rgb(16, 169, 159) ;
+}
+.project2{
+    background-color: rgb(83, 128, 89);
+}
+.project3{
+    background-color: rgb(16, 169, 159);
+}
+
+#contact h2 {
+    color: #1a7cd1;
+    text-shadow: #128f59;
+
+}
+#contact h2:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+#projects h2{
+    color: #1a7cd1;
+}
+#projects h2:hover{
+    color: #4b9b29;
+}
+#about h2{
+    color: #1a7cd1;
+    cursor: pointer;
+}
+#about h2:hover{
+    color: #4b9b29;
+}
+
